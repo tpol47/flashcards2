@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+.app-container {
+  height: 100%;
+  display: flex
+}
+
+.app-content {
+  padding-left: 270px;
+}

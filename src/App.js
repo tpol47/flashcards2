@@ -6,10 +6,12 @@ import Flashcards from './components/Flashcards'
 
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <SideNav />
+      <div className="app-content">
+        <Flashcards />
+      </div>
       {/* <Header /> */}
-      <Flashcards />
     </div>
   );
 }
