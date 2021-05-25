@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     },
 });
 
-const CardBack = ({handleClick}) => {
+const CardBack = ({handleClick, content}) => {
     const classes = useStyles();
 
     return (
@@ -24,7 +24,7 @@ const CardBack = ({handleClick}) => {
             <CardActionArea>
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                    Card Back
+                    {content}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                     Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging

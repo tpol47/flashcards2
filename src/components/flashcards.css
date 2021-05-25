@@ -10,3 +10,7 @@
       transform: rotateX(-360deg);
     }
 }
+
+.button {
+  margin: 5px
+}
